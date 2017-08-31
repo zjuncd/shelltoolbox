@@ -3,6 +3,7 @@
 ### Example:
 ### conndb2.sh DBAlias01
 ### This will connect to DBAlias01 with DBName/User/Password specified in the config file.
+### Let's make it for git usage trainging
 SCRIPTPATH=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
 PATH_DBCONF=${SCRIPTPATH}/DBConnection.conf
 while getopts ":hq:" optname; do
