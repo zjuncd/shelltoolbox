@@ -1,4 +1,5 @@
 #! /bin/sh
+### just for git training
 SCRIPTPATH=$(cd `dirname "${BASH_SOURCE[0]}"` && pwd)
 PATH_DBCONF=${SCRIPTPATH}/DBConnection.conf
 conn_db_rslt=1
